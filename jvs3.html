@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <script src="jvs3.js"></script>
+    <div class="top">
+    <h1>Class Marksheet</h1>
+        <label>Họ và Tên:</label>
+        <input id="hoten" name="hoten" type="text" placeholder="Full Name" value=""><br><br>
+        <label>Điểm Toán:</label>
+        <input id="diemtoan" name="diemtoan" type="text" placeholder="Point" value=""><br><br>
+        <label>Điểm Lý:</label>
+        <input id="diemly" name="diemly" type="text" placeholder="Point" value=""><br><br>
+        <label>Điểm Hóa:</label>
+        <input id="diemhoa" name="diemhoa" type="text" placeholder="Point" value=""><br><br>
+        <button id="input">Nhập</button>
+    </div>
+    <br><br>
+    <table id="table">
+        <tr>
+          <th class="monhoc" id="sttRow">STT</th>
+          <th class="name" id="nameRow">Họ Tên</th>
+          <th class="monhoc" id="mathRow">Toán</th>
+          <th class="monhoc" id="physicalRow">Lý</th>
+          <th class="monhoc" id="chemistryRow">Hóa</th>
+          <th class="monhoc" id="avgRow">Trung bình</th>
+        </tr>
+      </table>
+      
+      <div class="bot">
+        <br><br>
+        <button id="avg">Tính Điểm Trung Bình</button>
+        <button id="xlhs">Xác Định học sinh giỏi</button>
+    </div>
+
+</body>
+</html>
